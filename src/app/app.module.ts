@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import {CurrencyTextBox} from './currencyTextBox.directive';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent, CurrencyTextBox ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
